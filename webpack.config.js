@@ -11,14 +11,14 @@ const entry = {
     index: [
         'react-hot-loader/patch',
         'webpack-hot-middleware/client?noInfo=false',
-        SRC + "/js/index/index.js",
-        SRC + "/scss/index/index.scss"
+        SRC + "/index/js/index.js",
+        SRC + "/index/scss/index.scss"
     ],
     admin: [
         'react-hot-loader/patch',
         'webpack-hot-middleware/client?noInfo=false',
-        SRC + "/js/admin/index.js",
-        SRC + "/scss/admin/index.scss"
+        SRC + "/admin/js/index.js",
+        SRC + "/admin/scss/index.scss"
     ]
 };
 
